@@ -1,0 +1,140 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*background: #eee url('../images/bg-tile.gif') top left repeat;*/
+  background-color: #f4f4f4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  
+}
+
+/* End bootstrap default css */
+
+.container {
+  position: relative;
+  right: 6px;
+}
+
+.navTop {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  font-family:'Roboto Slab', serif;
+  position: relative;
+  top: 30px;
+  font-size: 1.3em;
+}
+
+.navTop li {
+  display: inline-block;
+}
+
+#midButton {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-color: #c4c4c4;
+  padding: 0 5px;
+}
+
+.navTop a {
+  color: #F287D4;
+}
+
+.navTop a:hover {
+  text-decoration: none;
+  color: #EF00AE;
+  /* transition: all .3s; */
+  border-bottom: 3px solid #EF00AE;
+}
+
+.clearfix {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#jump-clear {
+  width: 575px;
+}
+
+.header h2 {
+  margin-top: 10px;
+}
+
+.container h2 img {
+  width: 300px;
+}
+
+/* Main Content */
+
+.col-lg-12 {
+  height: 500px;
+  background: #eee url('../images/bg-tile.gif') top left repeat; 
+}
+
+.footer {
+  clear: both;
+}
+
+.footer p {
+  float: left;
+  font-style: italic;
+}
+
+.footer span {
+  float: right;
+  font-style: italic;
+}
