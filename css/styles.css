@@ -1,0 +1,197 @@
+/* ===============================
+   Author: {Nathan A. Coley}
+   Date:   {June 9, 2015}
+   =============================== */
+
+/* General */
+
+.container {
+   width: 970px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+hr {
+   text-decoration: none;
+   border: 2px dashed #555;
+}
+
+/* Typography */
+
+body {
+   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+   background: #e5e5e5;
+}
+
+h1, h2, h3 {
+   font-family: 'Roboto Slab', serif;
+}
+
+/* Header */
+
+header {
+   background: #C64343;
+   height: 100px;
+}
+
+header p {
+   margin: 0;
+   float: left;
+   font-size: 34px;
+   padding-top: 25px;
+}
+
+#first-name {
+   color: #222;
+   letter-spacing: 1px;
+}
+
+nav {
+   float: right;
+   padding-top: 23px;
+}
+
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   font-size: 18px;
+   padding: 0 8px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #f2f2f2;
+}
+
+nav ul li a:hover {
+   color: #fff;
+   text-shadow: 1px 1px 9px #fff;
+   transition: all .4s;
+}
+
+#midlink {
+   border-right: 1px solid #f2f2f2;
+   border-left: 1px solid #f2f2f2;
+   padding: 0 12px;
+}
+
+/* Hero */
+
+#hero {
+   margin: 60px 0;
+}
+
+#portrait {
+   width: 350px;
+   border-radius: 175px;
+   float: left;
+}
+
+#intro {
+   width: 600px;
+   float: right;
+}
+
+#intro h1 {
+   font-size: 44px;
+}
+
+#intro p {
+   font-size: 18px;
+   line-height: 30px;
+   padding-top: 30px;
+}
+
+/* Midsection */
+
+#midleft, #midright {
+   margin: 20px 20px;
+   width: 400px;
+}
+
+#midleft img, #midright img {
+   margin-top: 16px;
+}
+
+#midleft h3, #midright h3 {
+   font-size: 28px;
+   margin-top: 13px;
+}
+
+#midleft p, #midright p {
+   font-size: 18px;
+   font-weight: 300;
+}
+
+#midleft {
+   float: left;
+}
+
+#midright {
+   float: right;
+}
+
+/* Bottom Section */
+
+#largebottom {
+   margin-top: 35px;
+}
+
+#largebottom img {
+   margin-top: 16px;
+}
+
+#largebottom h2 {
+   font-size: 34px;
+   margin-top: 13px;
+}
+
+#largebottom p {
+   font-size: 18px;
+   font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+   background: #C64343;
+   color: #fff;
+   height: 150px;
+   margin-top: 60px;
+   font-size: 18px;
+}
+
+#copyright {
+   margin-top: 35px;
+   float: left;
+}
+
+#credits {
+   margin-top: 35px;
+   float: right;
+}
+
+#credits a {
+   color: #fff;
+}
+
+.p-light {
+   font-weight: 100;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
